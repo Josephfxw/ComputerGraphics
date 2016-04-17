@@ -52,14 +52,14 @@ HistogramStretching::applyFilter(ImagePtr I1, ImagePtr I2)
     
     
     if (!m_checkBoxMax->isChecked()) {
-    
+        
         max = m_sliderB->value();
-    
+        
     }
     
     if (!m_checkBoxMin->isChecked()){
-    
-      min = m_sliderC->value();
+        
+        min = m_sliderC->value();
     }
     
     
@@ -225,7 +225,7 @@ HistogramStretching::histogramstretching(ImagePtr I1, int minv, int maxv, ImageP
     int total = w * h;
     //double cont;
     
- 
+    
     int i,lut[MXGRAY];
     for (i = 0; i < MXGRAY; ++i) lut[i] = CLIP((i - minv)*MXGRAY / (maxv-minv), 0, MaxGray);
     
@@ -256,7 +256,7 @@ HistogramStretching::changeAutoMax( int){
         for (endd = p1 + total; p1<endd;) histogram[*p1++]++;
     }
     
-  
+    
     for(int i = MaxGray;i>=0;i--){
         
         if(!histogram[i])continue;
@@ -265,7 +265,7 @@ HistogramStretching::changeAutoMax( int){
         
     }
     
-  
+    
     applyFilter(g_mainWindowP->imageSrc(), g_mainWindowP->imageDst());
     
     // display output
@@ -292,7 +292,7 @@ HistogramStretching::changeAutoMin( int){
         for (endd = p1 + total; p1<endd;) histogram[*p1++]++;
     }
     
-  
+    
     
     for(int i =0;i<=MaxGray;i++){
         

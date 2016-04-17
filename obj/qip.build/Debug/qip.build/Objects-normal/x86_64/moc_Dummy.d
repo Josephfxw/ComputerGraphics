@@ -1,4 +1,4 @@
-dependencies: /Users/josephfan/SeniorDesign/qip2/moc/moc_Dummy.cpp \
+dependencies: /Users/josephfan/Desktop/qip2/moc/moc_Dummy.cpp \
   moc/../Dummy.h ImageFilter.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \

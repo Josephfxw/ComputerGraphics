@@ -44,7 +44,7 @@ Contrast::applyFilter(ImagePtr I1, ImagePtr I2)
     // error checking
     if(b < -256 || b > 256) return 0;
     if(c < -100 || c > 100) return 0;
-   
+    
     
     contrast(I1, b, c, I2);
     
@@ -53,7 +53,7 @@ Contrast::applyFilter(ImagePtr I1, ImagePtr I2)
     
     
     
-
+    
 }
 
 

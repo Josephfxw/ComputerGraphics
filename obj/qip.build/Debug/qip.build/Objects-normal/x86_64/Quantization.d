@@ -1,5 +1,4 @@
-dependencies: /Users/josephfan/SeniorDesign/qip2/Quantization.cpp \
-  MainWindow.h \
+dependencies: /Users/josephfan/Desktop/qip2/Quantization.cpp MainWindow.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers/QtCore \
@@ -480,4 +479,4 @@ dependencies: /Users/josephfan/SeniorDesign/qip2/Quantization.cpp \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers/QPair \
   ../../Qt5.5.1/5.5/clang_64/lib/QtPrintSupport.framework/Headers/qprintpreviewwidget.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtPrintSupport.framework/Headers/qtprintsupportversion.h \
-  Quantization.h
+  Quantization.hpp

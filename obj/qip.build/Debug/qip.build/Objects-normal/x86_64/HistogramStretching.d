@@ -1,4 +1,4 @@
-dependencies: /Users/josephfan/SeniorDesign/qip2/HistogramStretching.cpp \
+dependencies: /Users/josephfan/Desktop/qip2/HistogramStretching.cpp \
   MainWindow.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \

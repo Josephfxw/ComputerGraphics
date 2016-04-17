@@ -1,4 +1,4 @@
-dependencies: /Users/josephfan/SeniorDesign/qip2/moc/moc_MainWindow.cpp \
+dependencies: /Users/josephfan/Desktop/qip2/moc/moc_MainWindow.cpp \
   moc/../MainWindow.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \

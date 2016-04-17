@@ -32,19 +32,19 @@ Threshold::Threshold(QWidget *parent) : ImageFilter(parent)
 bool
 Threshold::applyFilter(ImagePtr I1, ImagePtr I2)
 {
-	// error checking
-	if(I1.isNull()) return 0;
-
-	// get threshold value
-	int thr = m_slider->value();
-
-	// error checking
-	if(thr < 0 || thr > MXGRAY) return 0;
-
-	// apply filter
-	threshold(I1, thr, I2);
-
-	return 1;
+    // error checking
+    if(I1.isNull()) return 0;
+    
+    // get threshold value
+    int thr = m_slider->value();
+    
+    // error checking
+    if(thr < 0 || thr > MXGRAY) return 0;
+    
+    // apply filter
+    threshold(I1, thr, I2);
+    
+    return 1;
 }
 
 
@@ -57,42 +57,42 @@ Threshold::applyFilter(ImagePtr I1, ImagePtr I2)
 QGroupBox*
 Threshold::controlPanel()
 {
-	// init group box
-	m_ctrlGrp = new QGroupBox("Threshold");
-
-	// init widgets
-	// create label[i]
-	QLabel *label = new QLabel;
-	label->setText(QString("Thr"));
-
-	// create slider
-	m_slider = new QSlider(Qt::Horizontal, m_ctrlGrp);
-	m_slider->setTickPosition(QSlider::TicksBelow);
-	m_slider->setTickInterval(25);
-	m_slider->setMinimum(1);
-	m_slider->setMaximum(MXGRAY);
-	m_slider->setValue  (MXGRAY>>1);
-
-	// create spinbox
-	m_spinBox = new QSpinBox(m_ctrlGrp);
-	m_spinBox->setMinimum(1);
-	m_spinBox->setMaximum(MXGRAY);
-	m_spinBox->setValue  (MXGRAY>>1);
-
-	// init signal/slot connections for Threshold
-	connect(m_slider , SIGNAL(valueChanged(int)), this, SLOT(changeThr (int)));
-	connect(m_spinBox, SIGNAL(valueChanged(int)), this, SLOT(changeThr (int)));
-
-	// assemble dialog
-	QGridLayout *layout = new QGridLayout;
-	layout->addWidget(  label  , 0, 0);
-	layout->addWidget(m_slider , 0, 1);
-	layout->addWidget(m_spinBox, 0, 2);
-
-	// assign layout to group box
-	m_ctrlGrp->setLayout(layout);
-
-	return(m_ctrlGrp);
+    // init group box
+    m_ctrlGrp = new QGroupBox("Threshold");
+    
+    // init widgets
+    // create label[i]
+    QLabel *label = new QLabel;
+    label->setText(QString("Thr"));
+    
+    // create slider
+    m_slider = new QSlider(Qt::Horizontal, m_ctrlGrp);
+    m_slider->setTickPosition(QSlider::TicksBelow);
+    m_slider->setTickInterval(25);
+    m_slider->setMinimum(1);
+    m_slider->setMaximum(MXGRAY);
+    m_slider->setValue  (MXGRAY>>1);
+    
+    // create spinbox
+    m_spinBox = new QSpinBox(m_ctrlGrp);
+    m_spinBox->setMinimum(1);
+    m_spinBox->setMaximum(MXGRAY);
+    m_spinBox->setValue  (MXGRAY>>1);
+    
+    // init signal/slot connections for Threshold
+    connect(m_slider , SIGNAL(valueChanged(int)), this, SLOT(changeThr (int)));
+    connect(m_spinBox, SIGNAL(valueChanged(int)), this, SLOT(changeThr (int)));
+    
+    // assemble dialog
+    QGridLayout *layout = new QGridLayout;
+    layout->addWidget(  label  , 0, 0);
+    layout->addWidget(m_slider , 0, 1);
+    layout->addWidget(m_spinBox, 0, 2);
+    
+    // assign layout to group box
+    m_ctrlGrp->setLayout(layout);
+    
+    return(m_ctrlGrp);
 }
 
 
@@ -105,18 +105,18 @@ Threshold::controlPanel()
 void
 Threshold::changeThr(int thr)
 {
-	m_slider ->blockSignals(true);
-	m_slider ->setValue    (thr );
-	m_slider ->blockSignals(false);
-	m_spinBox->blockSignals(true);
-	m_spinBox->setValue    (thr );
-	m_spinBox->blockSignals(false);
-
-	// apply filter to source image; save result in destination image
-	applyFilter(g_mainWindowP->imageSrc(), g_mainWindowP->imageDst());
-
-	// display output
-	g_mainWindowP->displayOut();
+    m_slider ->blockSignals(true);
+    m_slider ->setValue    (thr );
+    m_slider ->blockSignals(false);
+    m_spinBox->blockSignals(true);
+    m_spinBox->setValue    (thr );
+    m_spinBox->blockSignals(false);
+    
+    // apply filter to source image; save result in destination image
+    applyFilter(g_mainWindowP->imageSrc(), g_mainWindowP->imageDst());
+    
+    // display output
+    g_mainWindowP->displayOut();
 }
 
 
@@ -134,22 +134,22 @@ Threshold::changeThr(int thr)
 //
 void
 Threshold::threshold(ImagePtr I1, int thr, ImagePtr I2) {
-	IP_copyImageHeader(I1, I2);
-	int w = I1->width();
-	int h = I1->height();
-	int total = w * h;
-
-	// compute lut[]
-	int i, lut[MXGRAY];
+    IP_copyImageHeader(I1, I2);
+    int w = I1->width();
+    int h = I1->height();
+    int total = w * h;
+    
+    // compute lut[]
+    int i, lut[MXGRAY];
     for(i=0; i<thr ; ++i) lut[i] = 0;
-	for(   ; i <= MaxGray;      ++i) lut[i] = MaxGray;
-
-	int type;
-	ChannelPtr<uchar> p1, p2, endd;
-	for(int ch = 0; IP_getChannel(I1, ch, p1, type); ch++) {
-		IP_getChannel(I2, ch, p2, type);
-		for(endd = p1 + total; p1<endd;) *p2++ = lut[*p1++];
-	}
+    for(   ; i <= MaxGray;      ++i) lut[i] = MaxGray;
+    
+    int type;
+    ChannelPtr<uchar> p1, p2, endd;
+    for(int ch = 0; IP_getChannel(I1, ch, p1, type); ch++) {
+        IP_getChannel(I2, ch, p2, type);
+        for(endd = p1 + total; p1<endd;) *p2++ = lut[*p1++];
+    }
 }
 
 

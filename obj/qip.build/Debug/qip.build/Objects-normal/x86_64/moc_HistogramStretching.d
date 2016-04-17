@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/josephfan/SeniorDesign/qip2/moc/moc_HistogramStretching.cpp \
+  /Users/josephfan/Desktop/qip2/moc/moc_HistogramStretching.cpp \
   moc/../HistogramStretching.hpp ImageFilter.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgets \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtWidgets.framework/Headers/QtWidgetsDepends \

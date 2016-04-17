@@ -31,22 +31,22 @@ unix:!macx {
 
 # Input
 HEADERS +=	MainWindow.h	\
-		ImageFilter.h	\
-		qcustomplot.h	\
-		Dummy.h		\
-		Threshold.h	\
-		Contrast.h	\
-               Quantization.h \
-               HistogramStretching.hpp\
-		
-SOURCES +=	main.cpp	\ 
-		MainWindow.cpp 	\
-		ImageFilter.cpp	\
-		qcustomplot.cpp	\
-		Dummy.cpp	\
-		Threshold.cpp	\
-		Contrast.cpp	\
-               Quantization.cpp \
-		HistogramStretching.cpp
+ImageFilter.h	\
+qcustomplot.h	\
+Dummy.h		\
+Threshold.h	\
+Contrast.h	\
+Quantization.hpp \
+HistogramStretching.hpp\
+Blur.hpp \
 
-
+SOURCES +=	main.cpp	\
+MainWindow.cpp 	\
+ImageFilter.cpp	\
+qcustomplot.cpp	\
+Dummy.cpp	\
+Threshold.cpp	\
+Contrast.cpp	\
+Quantization.cpp \
+HistogramStretching.cpp \
+Blur.cpp \

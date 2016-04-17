@@ -13,315 +13,322 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Qmake";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/josephfan/SeniorDesign/qip2 -f qt_makeqmake.mak";
+			shellScript = "make -C /Users/josephfan/Desktop/qip2 -f qt_makeqmake.mak";
 			showEnvVarsInLog = "0";
 		};
-		A6076042F91B73C658C18097 = {
+		12764B3764925ED46A7B73D4 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/main.cpp";
+			path = "/Users/josephfan/Desktop/qip2/main.cpp";
 			name = "main.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		B31C532728F0F1972C77DB20 = {
-			fileRef = "A6076042F91B73C658C18097";
+		375C3214C8BC78E15ED9F899 = {
+			fileRef = "12764B3764925ED46A7B73D4";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		5357C79B4A717EE544E58509 = {
+		B8DBDE2328031AA11BD7089C = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/MainWindow.cpp";
+			path = "/Users/josephfan/Desktop/qip2/MainWindow.cpp";
 			name = "MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		3743A95F101242CDCA523228 = {
-			fileRef = "5357C79B4A717EE544E58509";
+		4E54E21FA49D0E72372CEB2D = {
+			fileRef = "B8DBDE2328031AA11BD7089C";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F9F00B38389252046AF5F45B = {
+		B585DF4F0FFFA22D06741B85 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/ImageFilter.cpp";
+			path = "/Users/josephfan/Desktop/qip2/ImageFilter.cpp";
 			name = "ImageFilter.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		07F00D093C36832872D416BB = {
-			fileRef = "F9F00B38389252046AF5F45B";
+		E00AE3C4A1BAE1A5AC389FAF = {
+			fileRef = "B585DF4F0FFFA22D06741B85";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		99E13404DCBB723116093D83 = {
+		8FED33266A94B04FD5B430E1 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/qcustomplot.cpp";
+			path = "/Users/josephfan/Desktop/qip2/qcustomplot.cpp";
 			name = "qcustomplot.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		94708E83E934FA0D6C6E42CB = {
-			fileRef = "99E13404DCBB723116093D83";
+		AE9A30B666B44B8F2CBB6DF1 = {
+			fileRef = "8FED33266A94B04FD5B430E1";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		393EB9A252935147E8F08306 = {
+		F4D442ACF8159E375268B177 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Dummy.cpp";
+			path = "/Users/josephfan/Desktop/qip2/Dummy.cpp";
 			name = "Dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		DAB875BE73293494C9F291D0 = {
-			fileRef = "393EB9A252935147E8F08306";
+		E17D7FFAFAAD7891C854AE83 = {
+			fileRef = "F4D442ACF8159E375268B177";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		2039FD24CFCD73142FA641F0 = {
+		8053A3A8F5DCD2FED2460C9C = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Threshold.cpp";
+			path = "/Users/josephfan/Desktop/qip2/Threshold.cpp";
 			name = "Threshold.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		E92062CC4A8B9F0C58EFCF1C = {
-			fileRef = "2039FD24CFCD73142FA641F0";
+		B4870A0C6C182C80B95581C4 = {
+			fileRef = "8053A3A8F5DCD2FED2460C9C";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		4D24DBD94BFA20B7178DA35B = {
+		745692150D2AAD069FDE2963 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Contrast.cpp";
+			path = "/Users/josephfan/Desktop/qip2/Contrast.cpp";
 			name = "Contrast.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		BADA71E96AECC04B842F39BB = {
-			fileRef = "4D24DBD94BFA20B7178DA35B";
+		4168802168E6F06BCB735010 = {
+			fileRef = "745692150D2AAD069FDE2963";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		B810E68590C47900BAEA55DF = {
+		E4892FB51A134752EA43027F = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Quantization.cpp";
+			path = "/Users/josephfan/Desktop/qip2/Quantization.cpp";
 			name = "Quantization.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		27FA8C75EC4ED2D76B22081C = {
-			fileRef = "B810E68590C47900BAEA55DF";
+		D0E80B66A021313FBC909366 = {
+			fileRef = "E4892FB51A134752EA43027F";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		3435FD175408F5F5807268E5 = {
+		CB85852C641CEF071A88047B = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/HistogramStretching.cpp";
+			path = "/Users/josephfan/Desktop/qip2/HistogramStretching.cpp";
 			name = "HistogramStretching.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		5FF8E617241E3A50E9B7DAB9 = {
-			fileRef = "3435FD175408F5F5807268E5";
+		E0CDF4A7CCF861C9D479E3EF = {
+			fileRef = "CB85852C641CEF071A88047B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		7614A372D011E7CDAFBDA819 = {
+		2AAB8BBA7DD0814AC4B8FC0D = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_MainWindow.cpp";
+			path = "/Users/josephfan/Desktop/qip2/Blur.cpp";
+			name = "Blur.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8B503130AB21CA01A5363404 = {
+			fileRef = "2AAB8BBA7DD0814AC4B8FC0D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1BD3FEFCF109D93710ED0348 = {
+			isa = PBXFileReference;
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_MainWindow.cpp";
 			name = "moc_MainWindow.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		9325C7674E746A4736C018D1 = {
-			fileRef = "7614A372D011E7CDAFBDA819";
+		8CDDBC16E462795B2135F5AD = {
+			fileRef = "1BD3FEFCF109D93710ED0348";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		DEACB207165D1783E69D43B7 = {
+		38434B797E6673C842A90AFC = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_qcustomplot.cpp";
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_qcustomplot.cpp";
 			name = "moc_qcustomplot.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		AE59893A63D82259978C395E = {
-			fileRef = "DEACB207165D1783E69D43B7";
+		6F0441658EE299E5D69B4093 = {
+			fileRef = "38434B797E6673C842A90AFC";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		B7EB5919B5F4775D73B643E8 = {
+		5454FF1036D02C1088417F1B = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_Dummy.cpp";
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_Dummy.cpp";
 			name = "moc_Dummy.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		5C2CFEC0A406DA48D1B7B93E = {
-			fileRef = "B7EB5919B5F4775D73B643E8";
+		DD48F11B97B8F3720DD29B3C = {
+			fileRef = "5454FF1036D02C1088417F1B";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		F7E0E335447AB499B31D23E0 = {
+		94D9C019845B731AE7653747 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_Threshold.cpp";
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_Threshold.cpp";
 			name = "moc_Threshold.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		C298C00049D8D952D47826BA = {
-			fileRef = "F7E0E335447AB499B31D23E0";
+		74B4BB79DE75F9AF125E6B86 = {
+			fileRef = "94D9C019845B731AE7653747";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		4D39C3CA53E2A18E4272732A = {
+		68A09B68649037B675227685 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_Contrast.cpp";
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_Contrast.cpp";
 			name = "moc_Contrast.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		CBE7AA9ABF86E3837D753AF6 = {
-			fileRef = "4D39C3CA53E2A18E4272732A";
+		24C9A78FE1F0C473D8CC1E9D = {
+			fileRef = "68A09B68649037B675227685";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		0D6EE62841556FDBF3DF32B1 = {
+		018A2B1FB419F348FB7516F6 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_Quantization.cpp";
-			name = "moc_Quantization.cpp";
-			sourceTree = "<absolute>";
-			lastKnownFileType = "sourcecode.cpp.cpp";
-		};
-		5ACFA2241B9AD0779EA55C58 = {
-			fileRef = "0D6EE62841556FDBF3DF32B1";
-			isa = PBXBuildFile;
-			settings = {
-				ATTRIBUTES = (
-					);
-			};
-		};
-		B4C2064E06EDB0B6B60FA8EE = {
-			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/moc/moc_HistogramStretching.cpp";
+			path = "/Users/josephfan/Desktop/qip2/moc/moc_HistogramStretching.cpp";
 			name = "moc_HistogramStretching.cpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.cpp.cpp";
 		};
-		816481D582063D03100CB826 = {
-			fileRef = "B4C2064E06EDB0B6B60FA8EE";
+		255F2A7FDCCD337516B43661 = {
+			fileRef = "018A2B1FB419F348FB7516F6";
 			isa = PBXBuildFile;
 			settings = {
 				ATTRIBUTES = (
 					);
 			};
 		};
-		46C803A3459700586340332B = {
+		2A294D06BECFF71866C68B4C = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/MainWindow.h";
+			path = "/Users/josephfan/Desktop/qip2/MainWindow.h";
 			name = "MainWindow.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		807644D9D52C0DCE71130EDC = {
+		AB5FBE88DCFE1B80936B45EC = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/ImageFilter.h";
+			path = "/Users/josephfan/Desktop/qip2/ImageFilter.h";
 			name = "ImageFilter.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		4FF9AEAF00543FF27E9FB564 = {
+		53AD2E1C528FBA6236279756 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/qcustomplot.h";
+			path = "/Users/josephfan/Desktop/qip2/qcustomplot.h";
 			name = "qcustomplot.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		D4C8A41350B2DF5B0AA7FDA5 = {
+		E9DC09ED1297F7FAC1C9DC6A = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Dummy.h";
+			path = "/Users/josephfan/Desktop/qip2/Dummy.h";
 			name = "Dummy.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		DB81043228FD2354E76A6C76 = {
+		E2FA50A8316C10E824A45478 = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Threshold.h";
+			path = "/Users/josephfan/Desktop/qip2/Threshold.h";
 			name = "Threshold.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		FA2928DF17707E2AB9C191D5 = {
+		DB6F6A9CC0EB5E7D35FC1A0B = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Contrast.h";
+			path = "/Users/josephfan/Desktop/qip2/Contrast.h";
 			name = "Contrast.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		F0650778E1C04BF900CCF9CA = {
+		069994E8504005A188AAC38D = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/Quantization.h";
+			path = "/Users/josephfan/Desktop/qip2/Quantization.h";
 			name = "Quantization.h";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		20B1A00C1BF4838403511658 = {
+		1773B673B346513FD365DD2A = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/HistogramStretching.hpp";
+			path = "/Users/josephfan/Desktop/qip2/HistogramStretching.hpp";
 			name = "HistogramStretching.hpp";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "sourcecode.c.h";
 		};
-		34C975C3D99F063F4C3DE35B = {
+		BBCDC668DA2928F040C4E57D = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/qip.pro";
+			path = "/Users/josephfan/Desktop/qip2/Blur.hpp";
+			name = "Blur.hpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		1997B3D06B0A8BCAF81C3785 = {
+			isa = PBXFileReference;
+			path = "/Users/josephfan/Desktop/qip2/qip.pro";
 			name = "qip.pro";
 			sourceTree = "<absolute>";
 			lastKnownFileType = "text";
 		};
-		05A4AF7613C4A4CCAD38BD62 = {
+		40C26F5926D13B4D27A9B98E = {
 			isa = PBXFileReference;
-			path = "/Users/josephfan/SeniorDesign/qip2/.qmake.stash";
+			path = "/Users/josephfan/Desktop/qip2/.qmake.stash";
 			name = ".qmake.stash";
 			sourceTree = "<absolute>";
 		};
@@ -335,44 +342,45 @@
 		DB4B99EED9A53460A6E7DC1F = {
 			isa = PBXGroup;
 			children = (
-				"7614A372D011E7CDAFBDA819",
-				"DEACB207165D1783E69D43B7",
-				"B7EB5919B5F4775D73B643E8",
-				"F7E0E335447AB499B31D23E0",
-				"4D39C3CA53E2A18E4272732A",
-				"0D6EE62841556FDBF3DF32B1",
-				"B4C2064E06EDB0B6B60FA8EE");
+				"1BD3FEFCF109D93710ED0348",
+				"38434B797E6673C842A90AFC",
+				"5454FF1036D02C1088417F1B",
+				"94D9C019845B731AE7653747",
+				"68A09B68649037B675227685",
+				"018A2B1FB419F348FB7516F6");
 			name = "moc";
 			sourceTree = "<Group>";
 		};
 		2EB56BE3C2D93CDAB0C52E67 = {
 			isa = PBXGroup;
 			children = (
-				"A6076042F91B73C658C18097",
-				"5357C79B4A717EE544E58509",
-				"F9F00B38389252046AF5F45B",
-				"99E13404DCBB723116093D83",
-				"393EB9A252935147E8F08306",
-				"2039FD24CFCD73142FA641F0",
-				"4D24DBD94BFA20B7178DA35B",
-				"B810E68590C47900BAEA55DF",
-				"3435FD175408F5F5807268E5",
-				"46C803A3459700586340332B",
-				"807644D9D52C0DCE71130EDC",
-				"4FF9AEAF00543FF27E9FB564",
-				"D4C8A41350B2DF5B0AA7FDA5",
-				"DB81043228FD2354E76A6C76",
-				"FA2928DF17707E2AB9C191D5",
-				"F0650778E1C04BF900CCF9CA",
-				"20B1A00C1BF4838403511658");
+				"12764B3764925ED46A7B73D4",
+				"B8DBDE2328031AA11BD7089C",
+				"B585DF4F0FFFA22D06741B85",
+				"8FED33266A94B04FD5B430E1",
+				"F4D442ACF8159E375268B177",
+				"8053A3A8F5DCD2FED2460C9C",
+				"745692150D2AAD069FDE2963",
+				"E4892FB51A134752EA43027F",
+				"CB85852C641CEF071A88047B",
+				"2AAB8BBA7DD0814AC4B8FC0D",
+				"2A294D06BECFF71866C68B4C",
+				"AB5FBE88DCFE1B80936B45EC",
+				"53AD2E1C528FBA6236279756",
+				"E9DC09ED1297F7FAC1C9DC6A",
+				"E2FA50A8316C10E824A45478",
+				"DB6F6A9CC0EB5E7D35FC1A0B",
+				"069994E8504005A188AAC38D",
+				"1773B673B346513FD365DD2A",
+				"BBCDC668DA2928F040C4E57D");
 			name = "Sources";
 			sourceTree = "<Group>";
 		};
 		74B182DB50CB5611B5C1C297 = {
 			isa = PBXGroup;
 			children = (
-				"34C975C3D99F063F4C3DE35B",
-				"05A4AF7613C4A4CCAD38BD62");
+				"1997B3D06B0A8BCAF81C3785",
+				"40C26F5926D13B4D27A9B98E");
 			name = "Supporting Files";
 			sourceTree = "<Group>";
 		};
@@ -384,41 +392,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Qt Preprocessors";
 			shellPath = "/bin/sh";
-			shellScript = "make -C /Users/josephfan/SeniorDesign/qip2 -f qt_preprocess.mak";
+			shellScript = "make -C /Users/josephfan/Desktop/qip2 -f qt_preprocess.mak";
 			showEnvVarsInLog = "0";
 		};
 		F7E50F631C51CD5B5DC0BC43 = {
 			buildActionMask = 2147483647;
 			files = (
-				"B31C532728F0F1972C77DB20",
-				"3743A95F101242CDCA523228",
-				"07F00D093C36832872D416BB",
-				"94708E83E934FA0D6C6E42CB",
-				"DAB875BE73293494C9F291D0",
-				"E92062CC4A8B9F0C58EFCF1C",
-				"BADA71E96AECC04B842F39BB",
-				"27FA8C75EC4ED2D76B22081C",
-				"5FF8E617241E3A50E9B7DAB9",
-				"9325C7674E746A4736C018D1",
-				"AE59893A63D82259978C395E",
-				"5C2CFEC0A406DA48D1B7B93E",
-				"C298C00049D8D952D47826BA",
-				"CBE7AA9ABF86E3837D753AF6",
-				"5ACFA2241B9AD0779EA55C58",
-				"816481D582063D03100CB826");
+				"375C3214C8BC78E15ED9F899",
+				"4E54E21FA49D0E72372CEB2D",
+				"E00AE3C4A1BAE1A5AC389FAF",
+				"AE9A30B666B44B8F2CBB6DF1",
+				"E17D7FFAFAAD7891C854AE83",
+				"B4870A0C6C182C80B95581C4",
+				"4168802168E6F06BCB735010",
+				"D0E80B66A021313FBC909366",
+				"E0CDF4A7CCF861C9D479E3EF",
+				"8B503130AB21CA01A5363404",
+				"8CDDBC16E462795B2135F5AD",
+				"6F0441658EE299E5D69B4093",
+				"DD48F11B97B8F3720DD29B3C",
+				"74B4BB79DE75F9AF125E6B86",
+				"24C9A78FE1F0C473D8CC1E9D",
+				"255F2A7FDCCD337516B43661");
 			isa = PBXSourcesBuildPhase;
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Compile Sources";
 		};
-		AF23D9DD561B0D9E9F2709A6 = {
+		ADD508FB9FB4FFEEB2DED8EA = {
 			isa = PBXFileReference;
 			name = "IP_d";
-			path = "/Users/josephfan/SeniorDesign/qip2/IP/mac/lib/libIP_d.a";
+			path = "/Users/josephfan/Desktop/qip2/IP/mac/lib/libIP_d.a";
 			refType = 0;
 			sourceTree = "<absolute>";
 		};
-		FDAD5F4EC13A9B93AA9581F9 = {
-			fileRef = "AF23D9DD561B0D9E9F2709A6";
+		E208E02738AC1A7C2C292841 = {
+			fileRef = "ADD508FB9FB4FFEEB2DED8EA";
 			isa = PBXBuildFile;
 			settings = {
 			};
@@ -537,7 +545,7 @@
 		};
 		AF39DD055C3EF8226FBE929D = {
 			children = (
-				"AF23D9DD561B0D9E9F2709A6",
+				"ADD508FB9FB4FFEEB2DED8EA",
 				"59EA14B5E862BCF12FDF9170",
 				"67C0D894D99CAFEFE889B0B2",
 				"8784D3E5A51D53A3162F48B0",
@@ -553,7 +561,7 @@
 		D1C883685E82D5676953459A = {
 			buildActionMask = 2147483647;
 			files = (
-				"FDAD5F4EC13A9B93AA9581F9",
+				"E208E02738AC1A7C2C292841",
 				"78C291F54CB76E5975B22873",
 				"003F2180033E816CC5F0A159",
 				"8FC32642A3E5D400A926EAFA",
@@ -574,7 +582,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			name = "Copy Bundle Resources";
 		};
-		8F9288DCE9BDD9BF31B5372C = {
+		6EE17F0918DD740898186DE9 = {
 			isa = PBXFileReference;
 			includeInIndex = 0;
 			explicitFileType = "wrapper.application";
@@ -583,7 +591,7 @@
 		};
 		FE0A091FDBFB3E9C31B7A1BD = {
 			children = (
-				"8F9288DCE9BDD9BF31B5372C");
+				"6EE17F0918DD740898186DE9");
 			isa = PBXGroup;
 			name = "Products";
 			sourceTree = "<Group>";
@@ -599,7 +607,7 @@
 			name = "qip";
 			sourceTree = "<Group>";
 		};
-		9C472C22F4F54D5F0CAF190B = {
+		5A472690F30B5D3C43F92EAC = {
 			buildPhases = (
 				"5E618435888B9D49F8540165",
 				"7EF0942E79C014DCEC8976BC");
@@ -612,18 +620,18 @@
 			productName = "Qt Preprocess";
 			name = "Qt Preprocess";
 		};
-		62BB666B33D9E8AACA2E5283 = {
+		C00B6D258AC6E851BDFB8F24 = {
 			isa = PBXTargetDependency;
-			target = "9C472C22F4F54D5F0CAF190B";
+			target = "5A472690F30B5D3C43F92EAC";
 		};
-		F350ED02ADCE092BBCF4C016 = {
+		6DA011AD0EAA444968278A95 = {
 			buildPhases = (
 				"F7E50F631C51CD5B5DC0BC43",
 				"D1C883685E82D5676953459A",
 				"30414803F31797EB689AE508");
 			dependencies = (
-				"62BB666B33D9E8AACA2E5283");
-			productReference = "8F9288DCE9BDD9BF31B5372C";
+				"C00B6D258AC6E851BDFB8F24");
+			productReference = "6EE17F0918DD740898186DE9";
 			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
 			isa = PBXNativeTarget;
 			buildRules = (
@@ -643,10 +651,10 @@
 				QT_LIBRARY_SUFFIX = "_debug";
 				SDKROOT = "macosx10.11";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				CC = "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
-				LDPLUSPLUS = "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/josephfan/SeniorDesign/qip2";
+				SYMROOT = "/Users/josephfan/Desktop/qip2";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.7";
@@ -658,12 +666,12 @@
 					"../../Qt5.5.1/5.5/clang_64/lib/QtGui.framework/Headers",
 					"../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers",
 					"moc",
-					"/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-					"/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
 					"../../Qt5.5.1/5.5/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
 					"./IP/mac/lib",
-					"/Users/josephfan/SeniorDesign/qip2/IP/mac/lib",
+					"/Users/josephfan/Desktop/qip2/IP/mac/lib",
 					"/Users/josephfan/Qt5.5.1/5.5/clang_64/lib",
 					"/System/Library/Frameworks/");
 				FRAMEWORK_SEARCH_PATHS = (
@@ -725,10 +733,10 @@
 				QT_LIBRARY_SUFFIX = "";
 				SDKROOT = "macosx10.11";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				CC = "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
-				LDPLUSPLUS = "/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
 				INFOPLIST_FILE = "Info.plist";
-				SYMROOT = "/Users/josephfan/SeniorDesign/qip2";
+				SYMROOT = "/Users/josephfan/Desktop/qip2";
 				DYLIB_CURRENT_VERSION = "1.0.0";
 				DYLIB_COMPATIBILITY_VERSION = "1.0";
 				MACOSX_DEPLOYMENT_TARGET = "10.7";
@@ -740,12 +748,12 @@
 					"../../Qt5.5.1/5.5/clang_64/lib/QtGui.framework/Headers",
 					"../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers",
 					"moc",
-					"/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
-					"/Volumes/Xcode/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/AGL.framework/Headers",
 					"../../Qt5.5.1/5.5/clang_64/mkspecs/macx-clang");
 				LIBRARY_SEARCH_PATHS = (
 					"./IP/mac/lib",
-					"/Users/josephfan/SeniorDesign/qip2/IP/mac/lib",
+					"/Users/josephfan/Desktop/qip2/IP/mac/lib",
 					"/Users/josephfan/Qt5.5.1/5.5/clang_64/lib",
 					"/System/Library/Frameworks/");
 				FRAMEWORK_SEARCH_PATHS = (
@@ -822,8 +830,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"F350ED02ADCE092BBCF4C016",
-				"9C472C22F4F54D5F0CAF190B");
+				"6DA011AD0EAA444968278A95",
+				"5A472690F30B5D3C43F92EAC");
 			attributes = {
 				TargetAttributes = {
 				};

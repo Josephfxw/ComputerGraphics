@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF63A9271D349C5788F29841"
+               BlueprintIdentifier = "767FC66EA0F3EC1FA2375830"
                BuildableName = "qip.app"
                BlueprintName = "qip"
                ReferencedContainer = "container:qip.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF63A9271D349C5788F29841"
+            BlueprintIdentifier = "767FC66EA0F3EC1FA2375830"
             BuildableName = "qip.app"
             BlueprintName = "qip"
             ReferencedContainer = "container:qip.xcodeproj">
@@ -71,7 +71,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF63A9271D349C5788F29841"
+            BlueprintIdentifier = "767FC66EA0F3EC1FA2375830"
             BuildableName = "qip.app"
             BlueprintName = "qip"
             ReferencedContainer = "container:qip.xcodeproj">
@@ -90,7 +90,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF63A9271D349C5788F29841"
+            BlueprintIdentifier = "767FC66EA0F3EC1FA2375830"
             BuildableName = "qip.app"
             BlueprintName = "qip"
             ReferencedContainer = "container:qip.xcodeproj">

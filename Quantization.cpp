@@ -1,6 +1,6 @@
 //
 //  quantization.cpp
-//  
+//
 //
 //  Created by Joseph Fan on 3/14/16.
 //
@@ -19,7 +19,7 @@
 // ======================================================================
 
 #include "MainWindow.h"
-#include "Quantization.h"
+#include "Quantization.hpp"
 
 extern MainWindow *g_mainWindowP;
 
@@ -163,14 +163,14 @@ Quantization::quantization(ImagePtr I1, int thr, ImagePtr I2) {
         for(endd = p1 + total; p1<endd;) *p2++ = lut[*p1++];
     }
     
-
     
     
     
     
     
     
-   
+    
+    
 }
 
 

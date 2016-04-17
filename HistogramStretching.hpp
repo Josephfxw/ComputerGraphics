@@ -30,7 +30,7 @@ protected:
     void changeMin(int );
     void changeMax(int );
     void changeAutoMax ( int);
-     void changeAutoMin ( int);
+    void changeAutoMin ( int);
     
 private:
     // brightness/contrast controls

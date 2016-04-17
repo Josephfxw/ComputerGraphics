@@ -1,5 +1,4 @@
-dependencies: /Users/josephfan/SeniorDesign/qip2/qcustomplot.cpp \
-  qcustomplot.h \
+dependencies: /Users/josephfan/Desktop/qip2/qcustomplot.cpp qcustomplot.h \
   ../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers/QObject \
   ../../Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers/qobject.h \
   /Users/josephfan/Qt5.5.1/5.5/clang_64/lib/QtCore.framework/Headers/qobjectdefs.h \

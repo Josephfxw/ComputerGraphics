@@ -14,30 +14,30 @@
 
 
 class Threshold : public ImageFilter {
-	Q_OBJECT
-
+    Q_OBJECT
+    
 public:
-	Threshold	(QWidget *parent = 0);		// constructor
-	QGroupBox*	controlPanel	();		// create control panel
-	bool		applyFilter(ImagePtr, ImagePtr);// apply filter to input to init output
-	void		reset		();		// reset parameters
-
+    Threshold	(QWidget *parent = 0);		// constructor
+    QGroupBox*	controlPanel	();		// create control panel
+    bool		applyFilter(ImagePtr, ImagePtr);// apply filter to input to init output
+    void		reset		();		// reset parameters
+    
 protected:
-	void threshold(ImagePtr I1, int thr, ImagePtr I2);
-
-protected slots:
-	void changeThr(int);
-
+    void threshold(ImagePtr I1, int thr, ImagePtr I2);
+    
+    protected slots:
+    void changeThr(int);
+    
 private:
-	// threshold controls
-	QSlider		*m_slider ;	// Threshold sliders
-	QSpinBox	*m_spinBox;	// Threshold spin boxes
-
-	// label for Otsu thresholds
-	QLabel		*m_label;	// Label for printing Otsu thresholds
-
-	// widgets and groupbox
-	QGroupBox	*m_ctrlGrp;	// Groupbox for panel
+    // threshold controls
+    QSlider		*m_slider ;	// Threshold sliders
+    QSpinBox	*m_spinBox;	// Threshold spin boxes
+    
+    // label for Otsu thresholds
+    QLabel		*m_label;	// Label for printing Otsu thresholds
+    
+    // widgets and groupbox
+    QGroupBox	*m_ctrlGrp;	// Groupbox for panel
 };
 
 
